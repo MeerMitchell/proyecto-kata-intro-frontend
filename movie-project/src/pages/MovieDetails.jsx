@@ -1,7 +1,7 @@
 // import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import API_KEY from './utils/Constants.js'
+import { API_KEY } from '../utils/Constants.js'
 
 const MovieDetails = () => {
   const { tittle } = useParams()

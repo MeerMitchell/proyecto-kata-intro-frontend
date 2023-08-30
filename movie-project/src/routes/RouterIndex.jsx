@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home.jsx'
-import About from './pages/About.jsx'
+import Home from '../pages/Home.jsx'
+import About from '../pages/About.jsx'
 import MovieDetails from '../pages/MovieDetails.jsx'
 
 const RouterIndex = () => {
