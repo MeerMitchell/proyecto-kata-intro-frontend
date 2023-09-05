@@ -73,12 +73,11 @@ li {
     list-style: none;
     display: inline;
     text-align: center;
+    padding: 2.5rem;
 }
 
-navbar-brand {
-  text-align: center;
-}
-
-nav-link {
-  text-align: center;
+input {
+  width: 10rem;
+  height: 2rem;
+  display: inline;
 }

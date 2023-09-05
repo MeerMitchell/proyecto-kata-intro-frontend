@@ -3,9 +3,6 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-sm navbar-light bg-warning d-flex justify-content-between px-4'>
-      <div class="logo">
-        <img src="" alt="" />
-      </div>
 
       <ul>
         <li className='nav-item px-2'>
@@ -27,6 +24,12 @@ const Navbar = () => {
         <NavLink className='nav-link' to='/'>TOP imdb</NavLink>
         </li>
       </ul>
+            <div className='container'>
+            <form action="">
+                    <h3><label for="buscador">Buscar</label></h3>
+                    <input type="button" id="Search"/>
+            </form>
+            </div>
 
     </nav>
   )
