@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #A9D6E5;
   text-decoration: inherit;
 }
 a:hover {
@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #01497C;
 }
 
 h1 {
@@ -66,4 +67,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+navbar-brand {
+  text-align: center;
+}
+
+nav-link {
+  text-align: center;
 }
